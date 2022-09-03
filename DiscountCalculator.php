@@ -5,7 +5,7 @@ class DiscountCalculator {
     const DISCOUNT_VALUE = 20;
 
     public function apply ($value){
-        if ($value > self ::MINIMUN_VALUE){
+        if ($value > self ::MINIMUM_VALUE){
             return $value - self::DISCOUNT_VALUE;
         }
 
